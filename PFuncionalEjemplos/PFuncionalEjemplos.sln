@@ -3,9 +3,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ejemplo1", "Ejemplo1", "{2DC47CE7-72AE-463B-A173-7E5419A5A561}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsOrdenamientoRapido", "FsOrdenamientoRapido\FsOrdenamientoRapido.fsproj", "{B3C2C4E2-8F26-43CE-95DF-24160DF60B06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsUsandoOrdenamiento", "CsUsandoOrdenamiento\CsUsandoOrdenamiento.csproj", "{6006625C-ABEC-42EF-A338-835A43738B2C}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3C2C4E2-8F26-43CE-95DF-24160DF60B06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3C2C4E2-8F26-43CE-95DF-24160DF60B06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3C2C4E2-8F26-43CE-95DF-24160DF60B06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3C2C4E2-8F26-43CE-95DF-24160DF60B06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6006625C-ABEC-42EF-A338-835A43738B2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6006625C-ABEC-42EF-A338-835A43738B2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6006625C-ABEC-42EF-A338-835A43738B2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6006625C-ABEC-42EF-A338-835A43738B2C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B3C2C4E2-8F26-43CE-95DF-24160DF60B06} = {2DC47CE7-72AE-463B-A173-7E5419A5A561}
+		{6006625C-ABEC-42EF-A338-835A43738B2C} = {2DC47CE7-72AE-463B-A173-7E5419A5A561}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C17F1EDD-4D76-43EA-83E0-71D01A6591E9}
