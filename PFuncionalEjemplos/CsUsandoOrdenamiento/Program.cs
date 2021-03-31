@@ -1,14 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using FsOrdenamientoRapido;
+using FsAlgOrdenamiento;
 namespace CsUsandoOrdenamiento
 {
     class Program
     {
-        const char sep = ',';
+        const char SEPARATOR = ',';
         static void Main(string[] args)
         {
+            
             Console.WriteLine("QuickSort desde F#");
             Console.Write("Lista separada por comas: ");
             var items = Console.ReadLine();
@@ -28,10 +29,11 @@ namespace CsUsandoOrdenamiento
             Console.ReadLine();
         }
 
+        //Imperativo
         private static int[] ToListInt(string items)
         {
             List<int> resultList = new List<int>();
-            foreach (var item in items.Split(sep))
+            foreach (var item in items.Split(SEPARATOR))
             {
                 if (int.TryParse(item, out int value))
                     resultList.Add(value);
@@ -39,10 +41,11 @@ namespace CsUsandoOrdenamiento
             return resultList.ToArray();
         }
 
+        //Declarativo
         private static int[] ToListIntV2(string items)
         {
 
-            return items.Split(sep)
+            return items.Split(SEPARATOR)
                   .Where(item => item.All(i => char.IsDigit(i)))
                   .Select(item => int.Parse(item))
                   .ToArray();

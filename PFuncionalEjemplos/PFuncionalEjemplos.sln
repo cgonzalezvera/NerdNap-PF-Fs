@@ -3,11 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ejemplo1", "Ejemplo1", "{2DC47CE7-72AE-463B-A173-7E5419A5A561}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4- IntegracionCs_Fs", "4- IntegracionCs_Fs", "{2DC47CE7-72AE-463B-A173-7E5419A5A561}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsOrdenamientoRapido", "FsOrdenamientoRapido\FsOrdenamientoRapido.fsproj", "{B3C2C4E2-8F26-43CE-95DF-24160DF60B06}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "FsAlgOrdenamiento", "FsOrdenamientoRapido\FsAlgOrdenamiento.fsproj", "{B3C2C4E2-8F26-43CE-95DF-24160DF60B06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsUsandoOrdenamiento", "CsUsandoOrdenamiento\CsUsandoOrdenamiento.csproj", "{6006625C-ABEC-42EF-A338-835A43738B2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsUsandoOrdenamiento", "CsUsandoOrdenamiento\CsUsandoOrdenamiento.csproj", "{6006625C-ABEC-42EF-A338-835A43738B2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - TiposDeDatos", "1 - TiposDeDatos", "{621FDA4B-7AC3-48BF-9AAE-CC266A220DB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - PatternMatchingAndPipe", "2 - PatternMatchingAndPipe", "{9E50BE1F-4803-4935-AE36-2DF715CC1CEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3- Currying", "3- Currying", "{A4B7646A-1AD0-4D80-BCA3-63DD34DB02D5}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsTipoDatosEjemplos", "FsTipoDatosEjemplos\FsTipoDatosEjemplos.fsproj", "{3430D73E-C621-447C-A1B0-5899B3011823}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsPatternMatchingEjemplo", "FsPatternMatchingEjemplo\FsPatternMatchingEjemplo.fsproj", "{0750F9A4-4C9C-4970-B7E2-84FB318612A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +33,14 @@ Global
 		{6006625C-ABEC-42EF-A338-835A43738B2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6006625C-ABEC-42EF-A338-835A43738B2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6006625C-ABEC-42EF-A338-835A43738B2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3430D73E-C621-447C-A1B0-5899B3011823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3430D73E-C621-447C-A1B0-5899B3011823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3430D73E-C621-447C-A1B0-5899B3011823}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3430D73E-C621-447C-A1B0-5899B3011823}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0750F9A4-4C9C-4970-B7E2-84FB318612A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0750F9A4-4C9C-4970-B7E2-84FB318612A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0750F9A4-4C9C-4970-B7E2-84FB318612A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0750F9A4-4C9C-4970-B7E2-84FB318612A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +48,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{B3C2C4E2-8F26-43CE-95DF-24160DF60B06} = {2DC47CE7-72AE-463B-A173-7E5419A5A561}
 		{6006625C-ABEC-42EF-A338-835A43738B2C} = {2DC47CE7-72AE-463B-A173-7E5419A5A561}
+		{3430D73E-C621-447C-A1B0-5899B3011823} = {621FDA4B-7AC3-48BF-9AAE-CC266A220DB8}
+		{0750F9A4-4C9C-4970-B7E2-84FB318612A4} = {9E50BE1F-4803-4935-AE36-2DF715CC1CEE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C17F1EDD-4D76-43EA-83E0-71D01A6591E9}

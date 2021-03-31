@@ -1,4 +1,4 @@
-﻿namespace FsOrdenamientoRapido
+﻿namespace FsAlgOrdenamiento
 
 module Ordenamiento =
     let rec Rapido (items: int list)=
