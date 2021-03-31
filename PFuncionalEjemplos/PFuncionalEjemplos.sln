@@ -19,6 +19,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsTipoDatosEjemplos", "FsTi
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsPatternMatchingEjemplo", "FsPatternMatchingEjemplo\FsPatternMatchingEjemplo.fsproj", "{0750F9A4-4C9C-4970-B7E2-84FB318612A4}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsCurryingEjemplo", "FsCurryingEjemplo\FsCurryingEjemplo.fsproj", "{5C97AAB3-E920-47E2-8C86-531796571BD0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{0750F9A4-4C9C-4970-B7E2-84FB318612A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0750F9A4-4C9C-4970-B7E2-84FB318612A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0750F9A4-4C9C-4970-B7E2-84FB318612A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C97AAB3-E920-47E2-8C86-531796571BD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C97AAB3-E920-47E2-8C86-531796571BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C97AAB3-E920-47E2-8C86-531796571BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C97AAB3-E920-47E2-8C86-531796571BD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +56,7 @@ Global
 		{6006625C-ABEC-42EF-A338-835A43738B2C} = {2DC47CE7-72AE-463B-A173-7E5419A5A561}
 		{3430D73E-C621-447C-A1B0-5899B3011823} = {621FDA4B-7AC3-48BF-9AAE-CC266A220DB8}
 		{0750F9A4-4C9C-4970-B7E2-84FB318612A4} = {9E50BE1F-4803-4935-AE36-2DF715CC1CEE}
+		{5C97AAB3-E920-47E2-8C86-531796571BD0} = {A4B7646A-1AD0-4D80-BCA3-63DD34DB02D5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C17F1EDD-4D76-43EA-83E0-71D01A6591E9}
